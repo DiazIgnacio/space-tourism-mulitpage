@@ -1,0 +1,42 @@
+#crew {
+  border-bottom: solid white 3px;
+  border-radius: 0%;
+  padding: 30px;
+}
+
+.hero-text h2 {
+  color: grey;
+  font-weight: lighter;
+  padding: 7px;
+}
+
+.hero-text h1{
+    color: white;
+    font-weight: lighter;
+    padding: 7px;
+    font-size: 36px;
+}
+
+.hero-text p{
+    color: rgb(168, 161, 161);
+    font-weight: lighter;
+    padding: 7px;
+}
+
+.container{
+    width: 30%;
+    position: absolute;
+    left: 15%;
+    top: 45%;
+}
+
+.womenTalking{
+    display: flex;
+    justify-content: right;
+    margin-right: 15%;
+}
+
+.btns{
+    border: solid white 10px;
+    border-radius: 10px;
+}
