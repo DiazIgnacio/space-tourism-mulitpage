@@ -1,10 +1,19 @@
 .womenTalking {
   display: flex;
   justify-content: right;
-  margin-right: 15%;
+  
 }
 
 .btns {
   border: solid white 10px;
   border-radius: 10px;
+}
+
+.hero .subtitle{
+  color: grey;
+  font-size: 24px;
+}
+
+.hero .title{
+  
 }
