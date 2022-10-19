@@ -91,7 +91,7 @@ body {
   margin: 0;
   width: 50%;
   height: 4rem;
-  padding: 0.5rem 8rem 0.5rem 4rem;
+  padding: 0 8rem 0 4rem;
   color: var(--white-color);
   backdrop-filter: blur(8px);
 
@@ -99,6 +99,16 @@ body {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+}
+
+.nav-link {
+  padding: 1.5rem 0.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.nav-link.selected {
+  border-bottom: 2px solid var(--white-color);
 }
 
 /* Main Content */
