@@ -115,6 +115,7 @@ body {
 .hero {
   flex: 1 1 auto;
   padding: 8rem 4rem 4rem;
+  display: flex;
 }
 
 .hero-text {
@@ -145,6 +146,19 @@ body {
   font-weight: 100;
   line-height: 2rem;
   color: rgb(178, 178, 178);
+}
+
+.hero .cta-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  width: 50%;
+  font-size: 3rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1.25rem;
 }
 
 /* Media Queries */
