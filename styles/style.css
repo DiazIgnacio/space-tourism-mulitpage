@@ -169,7 +169,34 @@ body {
 /* Media Queries */
 
 @media (max-width: 1200px) {
+  body {
+    overflow: auto;
+  }
+
+  .container {
+    height: auto;
+  }
+
   .navbar .menu-links::before {
     display: none;
+  }
+
+  .navbar .menu-links {
+    width: 60%;
+  }
+
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero .hero-text {
+    width: 60%;
+    text-align: center;
+  }
+
+  .hero .cta-btn {
+    margin-top: 8rem;
   }
 }
