@@ -114,13 +114,14 @@ body {
 /* Main Content */
 .hero {
   flex: 1 1 auto;
-  padding: 8rem 4rem 4rem;
+  padding: 8rem 4rem 8rem;
   display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 .hero-text {
-  max-width: 50%;
-  height: 100%;
+  flex-basis: 25%;
 }
 
 .hero .title {
@@ -154,11 +155,12 @@ body {
   align-items: center;
   background-color: var(--white-color);
   border-radius: 50%;
-  width: 50%;
-  font-size: 3rem;
-  font-weight: 100;
+  width: 16rem;
+  height: 16rem;
+  font-size: 1.8rem;
+  font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 1.25rem;
+  letter-spacing: 0.3rem;
 }
 
 /* Media Queries */
