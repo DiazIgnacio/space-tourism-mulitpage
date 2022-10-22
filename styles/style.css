@@ -147,6 +147,7 @@ body {
   letter-spacing: 1.2rem;
   color: var(--white-color);
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .hero .subtitle {
@@ -374,4 +375,24 @@ body {
   .navbar input:checked + .menu + .hamburger + .logo + .menu-links {
     opacity: 1;
   }
+}
+
+.numbernav{
+  font-weight: bolder;
+  
+}
+
+.item{
+  color: white;
+  font-weight: lighter;
+}
+
+.num{
+  color: grey;
+  margin-right: 15px;
+  font-weight: bolder;
+}
+
+.spans{
+  margin: 0 auto;
 }
