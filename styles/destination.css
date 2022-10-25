@@ -1,4 +1,53 @@
 .container{
-  background-image: url(https://wallpaperaccess.com/full/823503.jpg);
+  background-image: url(https://images.hdqwalls.com/download/milky-way-stars-4k-cr-1366x768.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.planet{
+  position: absolute;
+  left: 5px;
+  top: 20%;
+  padding: 0;
+  margin: 0;
+  max-width: 480px;
+}
+
+.hero-text{
+  position: absolute;
+  right: 10%;
+  width: 480px;
+  top: 40%;
+}
+
+.hero .spans{
+  position: absolute;
+  top: 0;
+}
+
+.hero .title{
+  font-size: 48px;
+  font-weight: lighter;
+}
+
+.btns-destination{
+  position: absolute;
+  top: 30%;
+  right: 17%;
+}
+.btnT1,.btnT2, .btnT3, .btnT4{
+  color: white;
+  font-weight: bold;
+  justify-content: space-between;
+  margin-left: 20px;
+  border: solid 2px grey;
+  border-radius: 50%;
+  padding: 6px;
+}
+
+.hero .information{
+  margin-top: 16px;
 }

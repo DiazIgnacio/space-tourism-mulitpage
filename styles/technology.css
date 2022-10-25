@@ -4,7 +4,7 @@
 
 .hero .hero-text{
   position: absolute;
-  bottom: 15%;
+  top: 30%;
   left: 25%;
   width: 650px;
   width: 480px;
@@ -39,22 +39,35 @@
 
 .hero .btns-technology{
   position: absolute;
-  bottom: 13%;
+  top: 25%;
   left: 16%;
 }
 
 .btnT1, .btnT2, .btnT3{
-  border: solid grey 1px;
-  border-radius: 51%;
+  border: solid grey 1.5px;
+  border-radius: 50%;
   background-color: transparent;
   margin-right: 10px;
   position: relative;
   display: grid;
+  margin-top: 60px;
   width: 60px ;
   height: 60px;
-  margin-top: 40px;
+  
   color: white;
-  padding: 13px;
+  text-align: center;
   font-size: 24px;
 }
 
+.slidernum{
+  position: relative;
+  top: 25%;
+}
+
+.all{
+  display: block;
+}
+
+.btnT1{
+  border-block-color: cyan;
+}

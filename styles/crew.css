@@ -3,7 +3,7 @@
 .hero .womenTalking{
   position: absolute;
   right: 10%;
-  bottom: 0%;
+  bottom: 15%;
   height: 70%;
 }
 
@@ -66,4 +66,3 @@
   position: relative;
   top: 50px;
 }
-

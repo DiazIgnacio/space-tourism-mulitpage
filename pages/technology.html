@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css" />
     <link rel="stylesheet" href="../styles/technology.css" />
+    <script src="../javascript/index.js"></script>
     <title> Technology </title>
  </head>
 
  <body>
-    <div class="container">
+    <div class="container" id="container">
         <nav class="navbar">
           <div class="logo"><img src="../public/images/logo.svg" alt="" /></div>
           <span class="navbar-line"></span>
@@ -25,6 +26,7 @@
           </ul>
         </nav>
         <section class="hero">
+        <div id="all">
           <div class="hero-text">
             <div class="spans">
             <span class="num"> 03 </span> <span class="item"> SPACE LAUNCH 101 </span>
@@ -36,11 +38,39 @@
             </p>
           </div>
           <div class="rocket"><img src="http://twistedsifter.com/wp-content/uploads/2012/05/nasa-rocket-launch-high-quality-6.jpg" alt="" width="400px" /></div>
-          
+        </div>
+
+        <div id="all2" style="display: none ;">
+          <div class="hero-text">
+            <div class="spans">
+            <span class="num"> 03 </span> <span class="item"> SPACESUIT L25 </span>
+            </div>
+            <h2 class="subtitle">The terminology... </h2>
+            <h1 class="title">Space suit</h1>
+            <p class="information">
+              This space suit made of a flexible and adaptable material is a space adventurer's best friend. Designed and built in malleable carbon fiber, with a cost of 25M U$D, the L25 spacesuit is the best choice for a space rendezvous.
+            </p>
+          </div>
+          <div class="rocket"><img src="https://www.laguiadelvaron.com/wp-content/uploads/2017/08/ixHIWpINCRkcv-29pW-gjC9LgSFcn_fnZDyriykSydE-1.jpg" alt="" width="400px" /></div>
+        </div>
+
+         <div id="all3" style="display: none ;">
+          <div class="hero-text">
+            <div class="spans">
+            <span class="num"> 03 </span> <span class="item"> SPACE FOOD </span>
+            </div>
+            <h2 class="subtitle">The terminology... </h2>
+            <h1 class="title">Space saucers</h1>
+            <p class="information">
+              Imagine eating a delicious smoked salmon, in front of a large glass, with a huge empty outside, but very full inside ....
+            </p>
+          </div>
+          <div class="rocket"><img src="https://cloudfront-us-east-1.images.arcpublishing.com/cmg/ITG7SMGXGNBDJMFVOHCZMKJO6U.jpg" alt="" width="400px"/> </div>
+        </div>
           <div class="btns-technology">
-            <button class="btnT1">1</button>
-            <button class="btnT2">2</button>
-            <button class="btnT3">3</button>
+            <button class="btnT1" onclick="myFunction()" id="bt1"><span class="slidernum" id="spn1">1</span></button>
+            <button class="btnT2" onclick="myFunction2()" id="bt2"><span class= "slidernum" id="sp2">2</span></button>
+            <button class="btnT3" onclick="myFunction3()" id="bt3"><span class= "slidernum" id="sp3">3</span></button>
           </div>
         </section>
         </div>
