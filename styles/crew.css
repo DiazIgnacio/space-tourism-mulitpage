@@ -66,3 +66,40 @@
   position: relative;
   top: 50px;
 }
+
+/**@media (max-width:1200px) {
+
+  .html, body, .container {
+    max-width: 1200px;
+    height: 1368px;
+    padding: 0;
+    display: grid 1fr;
+    justify-content: center;
+  }
+
+  .hero .womenTalking{
+    margin: 0 auto;
+  }
+
+  .hero .hero-text{
+    top: 120px;
+    margin: 0 auto;
+    text-align: center;
+    width: 480px;
+
+  }
+  .img{
+    width: 480px;
+    margin: 0 auto;
+
+  }
+
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    
+  }
+}
+**/
