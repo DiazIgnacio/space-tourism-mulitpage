@@ -1,8 +1,5 @@
 .hero .womenTalking {
-  position: absolute;
-  right: 10%;
-  bottom: 0;
-  height: 70%;
+  flex-basis: 50%;
 }
 
 .hero .womenTalking img {
@@ -11,10 +8,21 @@
   object-fit: cover;
 }
 
-.btn1,
-.btn2,
-.btn3,
-.btn4 {
+.text-and-image-container.active{
+  display: flex;
+}
+
+.text-and-image-container{
+  display: none;
+}
+
+@media (max-width:1200px){
+  .text-and-image-container{
+    flex-direction: column;
+  }
+}
+
+.btn {
   border: solid grey 0px;
   border-radius: 51%;
   background-color: grey;
@@ -25,6 +33,10 @@
   height: 10px;
 }
 
+.btn.active{
+  background-color: cyan;
+}
+
 .btns {
   position: absolute;
   bottom: 5%;
@@ -32,10 +44,7 @@
 }
 
 .hero .hero-text {
-  position: absolute;
-  bottom: 20%;
-  left: 10%;
-  width: 500px;
+  flex-basis: 50%;
 }
 
 .hero-text .title {
